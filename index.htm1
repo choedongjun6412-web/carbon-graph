@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>탄소 포집 & 킬링 곡선 탐구</title>
+  <style>
+    body {
+      font-family: "Noto Sans KR", Arial, sans-serif;
+      background-color: #f9f9f9;
+      color: #222;
+      margin: 40px;
+      line-height: 1.6;
+    }
+    h1 {
+      text-align: center;
+      color: #2c3e50;
+    }
+    h2 {
+      margin-top: 40px;
+      border-left: 5px solid #27ae60;
+      padding-left: 10px;
+      color: #34495e;
+    }
+    section {
+      background: #fff;
+      padding: 20px;
+      margin-bottom: 30px;
+      border-radius: 8px;
+      box-shadow: 0 0 8px rgba(0,0,0,0.05);
+    }
+    img {
+      max-width: 100%;
+      display: block;
+      margin: 15px auto;
+      border-radius: 5px;
+    }
+    ul {
+      margin-left: 20px;
+    }
+    footer {
+      text-align: center;
+      color: #666;
+      font-size: 14px;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>탄소 포집 & 킬링 곡선 탐구</h1>
+
+  <section>
+    <h2>탐구 목적</h2>
+    <p>
+      킬링 곡선을 분석하여 이산화탄소 농도의 변화 패턴을 이해하고,
+      탄소 포집 기술이 기후 위기 완화에 어느 정도 기여할 수 있는지 알아보고자 하였다.
+    </p>
+  </section>
+
+  <section>
+    <h2>킬링 곡선 분석</h2>
+    <p>
+      킬링 곡선은 대기 중 이산화탄소 농도가 1년 주기로 진동하면서 장기적으로 증가하는 그래프이다.
+      계절적 변화에 따른 농도 진동과 산업혁명 이후 인간 활동으로 인한 장기 상승 추세를 확인할 수 있다.
+    </p>
+    <ul>
+      <li>여름: 식물 광합성 증가 → 농도 감소</li>
+      <li>겨울: 식물 활동 감소, 낙엽 분해 → 농도 증가</li>
+      <li>장기적 상승: 산업혁명 이후 인간 활동 영향</li>
+    </ul>
+    <img src="killing_curve_example.png" alt="킬링 곡선 예시 그래프">
+  </section>
+
+  <section>
+    <h2>탄소 포집 기술</h2>
+    <p>
+      이산화탄소를 분리·저장·재활용하는 기술로, 주요 방식은 연소 후 포집, 연소 전 포집, 직접 공기 포집(DAC)이 있다.
+    </p>
+    <ul>
+      <li>연소 후 포집: 배기가스에서 CO₂ 선택적 분리</li>
+      <li>연소 전 포집: 연료 가스화 후 CO₂ 제거</li>
+      <li>직접 공기 포집(DAC): 대기 중 CO₂ 직접 포집</li>
+    </ul>
+    <p>
+      DAC 과정: 공기 흡입 → CO₂ 포집 → 분리 → 저장/연료 활용
+    </p>
+  </section>
+
+  <section>
+    <h2>자연 흡수원과 비교</h2>
+    <p>
+      소나무 1ha: 연간 8.34톤 CO₂ 흡수<br>
+      소형 탄소 포집 설비 1대: 연간 약 1000톤 CO₂ 포집 → 약 120배 차이
+    </p>
+    <p>
+      비용 분석: 소나무 설치 비용 약 3백만 원, 포집 설비 설치 비용 약 2억 9천만 원<br>
+      결론: 현재는 자연 흡수원이 비용 대비 효율적이나, 기술 발전 시 탄소 포집도 큰 기여 가능
+    </p>
+  </section>
+
+  <section>
+    <h2>결론</h2>
+    <p>
+      킬링 곡선과 탄소 포집 기술을 통해 기후 위기 대응의 수단을 분석하였다.
+      자연 흡수원과 기술적 해결책을 병행하면 탄소 중립 달성에 효과적일 것으로 판단된다.
+    </p>
+  </section>
+
+  <footer>
+    © 2026 기후위기 탐구 프로젝트
+  </footer>
+
+</body>
+</html>
+
